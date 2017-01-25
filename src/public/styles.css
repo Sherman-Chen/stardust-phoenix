@@ -1,0 +1,103 @@
+/* general */
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.flex-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0.5rem;
+}
+
+.hook {
+	display: flex;
+	justify-content: center;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.blurb {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+.stretcher {
+	height: 80vh;
+}
+
+/* Header component */
+.header-flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	border-bottom: 2px solid darkorange;
+	margin-bottom: 10px;
+}
+
+.brand {
+	text-decoration: none;
+	font-size: 2rem;
+	color: black;
+	cursor: default;
+}
+
+.links-aside {
+	display: flex;
+}
+
+.link {
+	text-decoration: none;
+	font-size: 1rem;
+	color: dodgerblue;
+	cursor: default;
+}
+
+.link :hover {
+	font-weight: bold;
+}
+
+.link-nav {
+	margin-right: 15px;
+}
+
+.border-bottom {
+	border-bottom: 1px solid black;
+	padding-bottom: 15px;
+}
+
+.align-text-right {
+	margin-right: auto;
+}
+
+/* NotFound component */
+.not-found {
+	height: 80vh;
+}
+
+/* Footer component */
+.footer {
+	font-style: italic;
+}
+
+/* media queries */
+@media screen and (min-width: 768px) {
+    .blurb {
+    	width: 55vw;
+    }
+
+		.header-flex-container {
+    	width: 80vw;
+    	height: 10vh;
+    	align-items: center;
+    	justify-content: space-between;
+    }
+
+    .video {
+    	width: 535px;
+    	height: 315px;
+    }
+}
