@@ -104,7 +104,7 @@ body {
 }
 
 @media screen
-	and (min-width: 1280px) {
+	and (min-width: 1281px) {
 		.blurb {
 			width: 36vw;
 		}
