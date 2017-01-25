@@ -5,10 +5,10 @@ const path = require('path');
 const app = express();
 const port = (process.env.PORT || 8080);
 
-app.use(express.static('src/client'));
+app.use(express.static('src/public'));
 
 app.get('/*', (req, res) => {
-  res.sendFile(path.resolve('src/client', 'index.html'));
+  res.sendFile(path.resolve('src/public', 'index.html'));
 });
 
 const server = app.listen(port, () => {
