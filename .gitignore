@@ -5,7 +5,8 @@ node_modules
 
 # production
 /src/public/*build.js
-/src/public/*746611e3acf554ec72978af665b6e188.jpg
+/src/public/*jpg
+/src/public/*png
 
 # misc
 .DS_Store

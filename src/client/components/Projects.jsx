@@ -43,6 +43,7 @@ const Projects = () => {
       <section className="blurb border-bottom">
         <h3><i className="fa fa-male icon"></i>Tennis Buddy</h3>
         <p>"Social Network for Tennis Ethusiasts"</p>
+        <img src={require('../../public/images/tennisbuddy.png')} alt="Tennis Buddy the easiest way to play tennis with a buddy!"/>
         <p>It's on <a href="https://github.com/Sherman-Chen/TennisBuddy" className="link" target='_blank'>GitHub</a>.</p>
         <p><b>What I built</b>: I had 24 hours to complete this project. I built pretty much a static webpage, I was way over my head in wanting to develop an entire social network in only a day!</p>
         <p><b>What I learned</b>: Rapid prototyping is an essential in this industry. If there are scaffolding tools available (ahem Yeoman, Create-React-App, etc. cough cough) you should probably use them to save yourself time!</p>

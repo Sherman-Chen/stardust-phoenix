@@ -8,7 +8,7 @@ export default class AboutMe extends React.Component {
         <section className="blurb">
           <h1>About Sherman</h1>
           <figure>
-            <img src={require('../../public/sherman_chen.jpg')} alt="The boyhood dream acheived! Finally WWE Champion of the world!"/>
+            <img src={require('../../public/images/sherman_chen.jpg')} alt="The boyhood dream acheived! Finally WWE Champion of the world!"/>
             <figcaption><em>Who knows? Maybe one day it'll be the actual belt. A man can dream! ;D</em></figcaption>
           </figure>
           <p><i className="fa fa-hand-peace-o icon"></i>When not developing I can be found playing tennis, binging netflix, or planning out my next personal project!</p>
