@@ -43,6 +43,15 @@ figcaption {
 	line-height: 1.5;
 }
 
+.icon {
+	padding: 0.3rem;
+}
+
+.icon-link {
+	color: orange;
+	cursor: default;
+}
+
 /* Header component */
 .header-flex-container {
 	display: flex;
