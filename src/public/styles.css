@@ -17,6 +17,12 @@ figcaption {
 	text-align: center;
 }
 
+a:hover {
+	font-weight: bold;
+}
+
+/*responsive designs and containers*/
+
 .flex-wrapper {
 	display: flex;
 	flex-direction: column;
@@ -44,11 +50,12 @@ figcaption {
 }
 
 .icon {
-	padding: 0.3rem;
+	margin-right: 0.3rem;
+	color: darkorange;
+	cursor: default;
 }
 
 .icon-link {
-	color: orange;
 	cursor: default;
 }
 
