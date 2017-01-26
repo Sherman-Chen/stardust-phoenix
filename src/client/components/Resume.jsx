@@ -7,11 +7,11 @@ const Resume = () => {
       <section className='blurb'>
         <h1>I'm actively job searching at the moment!</h1>
           <ul>
-            <li>I'm looking for work as a Software Engineer.</li>
-            <li>I bring an expertise in JavaScript and Full Stack Web Development.</li>
-            <li>I'm a keen believer in teamwork, clear communication, and learning new things!</li>
-            <li>I always bring an earnest and relentless attitude when it comes to building and engineering.</li>
-            <li>Let's get in <Link className='link' to="/Contact">touch</Link> if I sound like someone you might want to work with!</li>
+            <li><i className="fa fa-laptop icon"></i>I'm looking for work as a Software Engineer.</li>
+            <li><i className="fa fa-sitemap icon"></i>I bring an expertise in JavaScript and Full Stack Web Development.</li>
+            <li><i className="fa fa-ra icon"></i>I'm a keen believer in teamwork, clear communication, and learning new things!</li>
+            <li><i className="fa fa-rocket icon"></i>I always bring an earnest and relentless attitude when it comes to building and engineering.</li>
+            <li><i className="fa fa-info icon"></i>Let's get in <Link className='link' to="/Contact">touch</Link> if I sound like someone you might want to work with!</li>
           </ul>
       </section>
       <section className="blurb">
@@ -31,7 +31,7 @@ const Resume = () => {
           <li><i className="fa fa-cogs icon"></i><b>Backend</b>: For the server side of things I program mostly in Node with the Express framework, and use Websockets on occasion. Currently exploring the Django framework.</li>
           <li><i className="fa fa-database icon"></i><b>Databases</b>: I'm a nice guy, but I'm also a MEA/RN guy so MongoDB is my go to. I have also utilized MySQL, MariaDB, and SQLite before.</li>
           <li><i className="fa fa-code-fork icon"></i><b>Version Control</b>: Git saves lives! Always make frequent commmits!</li>
-          <li><i className="fa fa-sitemap icon"></i><b>Build</b>: Webpack and NPM scripts are cool, have also used Grunt, Gulp, and Bower.</li>
+          <li><i className="fa fa-terminal icon"></i><b>Build</b>: Webpack and NPM scripts are cool, have also used Grunt, Gulp, and Bower.</li>
           <li><i className="fa fa-globe icon"></i><b>Deployment</b>: I'm not the most skilled at DevOps, but I'm constantly improving. Previous applications were deployed using Heroku, and Digital Ocean. Docker is pretty neat.</li>
           <li><i className="fa fa-code icon"></i><b>Languages</b>: JavaScript, HTML, CSS, Python, Ruby, and some Go. I can speak English, and Chinese and am always looking to pick up new languages programming and conversational!</li>
           <li><i className="fa fa-asterisk icon"></i><b>Others</b>: I also have experience with design tools like Sketch and PhotoShop, and write tests using Mocha, Chai, Jasmine, Karma, and so forth. Have used Continous Integration tools such as CircleCi and TravisCi.</li>
@@ -40,7 +40,7 @@ const Resume = () => {
       <section className='blurb'>
         <h3>Education</h3>
         <ul className='align-text-right'>
-          <li><i className="fa fa-graduation-cap icon"></i>BA Sociology: University of California, San Diego</li>
+          <li><i className="fa fa-graduation-cap icon"></i>B.A. Sociology: University of California, San Diego</li>
           <li><i className="fa fa-desktop icon"></i>Hack Reactor SF, Cohort 48</li>
         </ul>
       </section>

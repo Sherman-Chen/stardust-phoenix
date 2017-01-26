@@ -8,7 +8,7 @@ const Projects = () => {
       <p className='border-bottom'>I built these both to learn and practice modern Software Engineering and Development. Of course they were also fantastically fun to make!</p>
       </section>
       <section className="blurb border-bottom">
-        <h3>CodeOff</h3>
+        <h3><i className="fa fa-file-code-o icon"></i>CodeOff</h3>
         <p>"Gamified Online Coding Platform"</p>
         <h3><em>Demo Recording currently in progress</em></h3>
         <p>It's on <a href="https://github.com/oneoffcharacters/CodeOff" className="link" target='_blank'>GitHub</a>.</p>
@@ -19,7 +19,7 @@ const Projects = () => {
         <p><em>Built with: React, jQuery, Node, Express, MongoDB, Socket.io, Mocha CLI, Docker, & Webpack.</em></p>
       </section>
       <section className="blurb border-bottom">
-        <h3>Meal.next</h3>
+        <h3><i className="fa fa-cutlery icon"></i>Meal.next</h3>
         <p>"Mobile all-in-one recipe finder"</p>
         <iframe width="100%" height="100%" className='video' src="https://www.youtube.com/embed/tx7B8MA7wyU" frameBorder="0" allowFullScreen></iframe>
         <p>It's on <a href="https://github.com/todaysjam/legacy" className="link" target='_blank'>GitHub</a>.</p>
@@ -30,7 +30,7 @@ const Projects = () => {
         <p><em>Built with: React Native, Exponent, Native Base, Node, Express, & MongoDB.</em></p>
       </section>
       <section className="blurb border-bottom">
-        <h3>Jamz</h3>
+        <h3><i className="fa fa-trophy icon"></i>Jamz</h3>
         <p>“Mobile accountability checker and activity tracker”</p>
         <iframe width="100%" height="100%" className='video' src="https://www.youtube.com/embed/SgTgcXYEDLY" frameBorder="0" allowFullScreen></iframe>
         <p>It's on <a href="https://github.com/todaysjam/todaysjam" className="link" target='_blank'>GitHub</a>.</p>
@@ -41,7 +41,7 @@ const Projects = () => {
         <p><em>Built with: React Native, Exponent, Node, Express, & MongoDB.</em></p>
       </section>
       <section className="blurb border-bottom">
-        <h3>Tennis Buddy</h3>
+        <h3><i className="fa fa-male icon"></i>Tennis Buddy</h3>
         <p>"Social Network for Tennis Ethusiasts"</p>
         <p>It's on <a href="https://github.com/Sherman-Chen/TennisBuddy" className="link" target='_blank'>GitHub</a>.</p>
         <p><b>What I built</b>: I had 24 hours to complete this project. I built pretty much a static webpage, I was way over my head in wanting to develop an entire social network in only a day!</p>

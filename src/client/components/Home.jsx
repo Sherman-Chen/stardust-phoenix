@@ -18,7 +18,7 @@ class Home extends Component {
       <div className="flex-wrapper">
         <Header />
         <article>
-          <h3 className='hook'>Hi I'm Sherman. I build things, like this website for example.</h3>
+          <h1 className='hook'>Hi I'm Sherman. I build things, like this website for example.</h1>
           <section className='blurb'>
             <h3><i className="fa fa-users icon"></i>I'm a Frontend Guy.</h3>
             <p>I write HTML5, CSS3, and JavaScript, I especially enjoy React and am quite the fanboy for Vue. I translate designs into reality, and make sure things look responsive and pretty across different browsers.</p>
