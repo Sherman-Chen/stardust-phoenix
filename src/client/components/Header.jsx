@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 
 const Header = () => {
-  const active = {'fontWeight':'bold'};
+  const active = {'fontWeight':'bold', 'color':'darkorange'};
 
   return (
     <div className='header-flex-container'>
