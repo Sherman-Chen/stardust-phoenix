@@ -32,7 +32,7 @@ const Resume = () => {
           <li><i className="fa fa-database icon"></i><b>Databases</b>: I'm a nice guy, but I'm also a MEA/RN guy so MongoDB is my go to. I have also utilized MySQL, MariaDB, and SQLite before.</li>
           <li><i className="fa fa-code-fork icon"></i><b>Version Control</b>: Git saves lives! Always make frequent commmits!</li>
           <li><i className="fa fa-terminal icon"></i><b>Build</b>: Webpack and NPM scripts are cool, have also used Grunt, Gulp, and Bower.</li>
-          <li><i className="fa fa-globe icon"></i><b>Deployment</b>: I'm not the most skilled at DevOps, but I'm constantly improving. Previous applications were deployed using Heroku, and Digital Ocean. Docker is pretty neat.</li>
+          <li><i className="fa fa-globe icon"></i><b>Deployment</b>: I'm not the most skilled at DevOps, but I'm constantly improving. This site is actively deployed via Heroku, and previous applications were deployed using Heroku, AWS, and Digital Ocean. Docker is pretty neat, containerize everything!</li>
           <li><i className="fa fa-code icon"></i><b>Languages</b>: JavaScript, HTML, CSS, Python, Ruby, and some Go. I can speak English, and Chinese and am always looking to pick up new languages programming and conversational!</li>
           <li><i className="fa fa-asterisk icon"></i><b>Others</b>: I also have experience with design tools like Sketch and PhotoShop, and write tests using Mocha, Chai, Jasmine, Karma, and so forth. Have used Continous Integration tools such as CircleCi and TravisCi.</li>
         </ul>
