@@ -3,11 +3,29 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+img {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+
+figure {
+	border: 1px solid black;
+}
+
+figcaption {
+	text-align: center;
+}
+
 .flex-wrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 0.5rem;
+}
+
+.stretcher {
+	height: 80vh;
 }
 
 .hook {
@@ -23,10 +41,6 @@ body {
 	align-items: center;
 	font-size: 1rem;
 	line-height: 1.5;
-}
-
-.stretcher {
-	height: 80vh;
 }
 
 /* Header component */
