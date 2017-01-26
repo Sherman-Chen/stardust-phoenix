@@ -21,6 +21,10 @@ a:hover {
 	font-weight: bold;
 }
 
+ul {
+	list-style: none;
+}
+
 /*responsive designs and containers*/
 
 .flex-wrapper {

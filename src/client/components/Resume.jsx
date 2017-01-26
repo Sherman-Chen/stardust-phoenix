@@ -18,30 +18,30 @@ const Resume = () => {
         <h3>Previous Experience</h3>
         <p>From 2014 - 2015: <b>General Manager</b> @ <a className='link' href="http://www.indigi-usa.com/" target='_blank'>Indigi</a></p>
         <ul>
-          <li>Managed multiple digital storefronts including Amazon, Jet, Walmart, Newegg, Rakuten, and others.</li>
-          <li>Supervised small team in Customer Service, Order Invoicing, Merchandise Fulfillment, and Inventory.</li>
-          <li>Managed $2 Million in product and growth.</li>
-          <li>Created and maintained company e-commerce store site using Volusion.</li>
+          <li><i className="fa fa-shopping-cart icon"></i>Managed multiple digital storefronts including Amazon, Jet, Walmart, Newegg, Rakuten, and others.</li>
+          <li><i className="fa fa-flag icon"></i>Supervised small team in Customer Service, Order Invoicing, Merchandise Fulfillment, and Inventory.</li>
+          <li><i className="fa fa-money icon"></i>Managed $2 Million in product and growth.</li>
+          <li><i className="fa fa-shopping-bag icon"></i>Created and maintained company e-commerce store site using Shopify and Volusion.</li>
         </ul>
       </section>
       <section className="blurb">
         <h3>Skills</h3>
         <ul>
-          <li><b>Frontend</b>: In past projects I have used React, and Angular. I have some experience with jQuery and Backbone as well. Really excited about Vue for some reason. I make a committment to building responsive mobile first designs.</li>
-          <li><b>Backend</b>: For the server side of things I program mostly in Node with the Express framework, and use Websockets on occasion. Currently exploring the Django framework.</li>
-          <li><b>Databases</b>: I'm a nice guy, but I'm also a MEA/RN guy so MongoDB is my go to. I have also utilized MySQL, MariaDB, and SQLite before.</li>
-          <li><b>Version Control</b>: Git saves lives! Always make frequent commmits!</li>
-          <li><b>Build</b>: Webpack and NPM scripts are cool, have also used Grunt, Gulp, and Bower.</li>
-          <li><b>Deployment</b>: I'm not the most skilled at DevOps, but I'm constantly improving. Previous applications were deployed using Heroku, and Digital Ocean. Docker is pretty neat.</li>
-          <li><b>Languages</b>: JavaScript, HTML, CSS, Python, Ruby, and some Go. I can speak English, and Chinese and am always looking to pick up new languages programming and conversational!</li>
-          <li><b>Others</b>: I also have experience with design tools like Sketch and PhotoShop, and write tests using Mocha, Chai, Jasmine, Karma, and so forth. Have used Continous Integration tools such as CircleCi and TravisCi.</li>
+          <li><i className="fa fa-pencil icon"></i><b>Frontend</b>: In past projects I have used React, and Angular. I have some experience with jQuery and Backbone as well. Really excited about Vue for some reason. I make a committment to building responsive mobile first designs.</li>
+          <li><i className="fa fa-cogs icon"></i><b>Backend</b>: For the server side of things I program mostly in Node with the Express framework, and use Websockets on occasion. Currently exploring the Django framework.</li>
+          <li><i className="fa fa-database icon"></i><b>Databases</b>: I'm a nice guy, but I'm also a MEA/RN guy so MongoDB is my go to. I have also utilized MySQL, MariaDB, and SQLite before.</li>
+          <li><i className="fa fa-code-fork icon"></i><b>Version Control</b>: Git saves lives! Always make frequent commmits!</li>
+          <li><i className="fa fa-sitemap icon"></i><b>Build</b>: Webpack and NPM scripts are cool, have also used Grunt, Gulp, and Bower.</li>
+          <li><i className="fa fa-globe icon"></i><b>Deployment</b>: I'm not the most skilled at DevOps, but I'm constantly improving. Previous applications were deployed using Heroku, and Digital Ocean. Docker is pretty neat.</li>
+          <li><i className="fa fa-code icon"></i><b>Languages</b>: JavaScript, HTML, CSS, Python, Ruby, and some Go. I can speak English, and Chinese and am always looking to pick up new languages programming and conversational!</li>
+          <li><i className="fa fa-asterisk icon"></i><b>Others</b>: I also have experience with design tools like Sketch and PhotoShop, and write tests using Mocha, Chai, Jasmine, Karma, and so forth. Have used Continous Integration tools such as CircleCi and TravisCi.</li>
         </ul>
       </section>
       <section className='blurb'>
         <h3>Education</h3>
         <ul className='align-text-right'>
-          <li>BA Sociology: University of California, San Diego</li>
-          <li>Hack Reactor SF, Cohort 48</li>
+          <li><i className="fa fa-graduation-cap icon"></i>BA Sociology: University of California, San Diego</li>
+          <li><i className="fa fa-desktop icon"></i>Hack Reactor SF, Cohort 48</li>
         </ul>
       </section>
       <section style={{'textAlign':'center'}}>
