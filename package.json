@@ -1,7 +1,7 @@
 {
   "name": "stardust-phoenix",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.3.0",
+  "description": "Sherman Chen's personal portfolio and e-resume",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/server/server.js",
@@ -9,8 +9,8 @@
     "start": "node src/server/server.js",
     "postinstall": "webpack"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Sherman","Chen","Sherman Chen","Software Engineer"],
+  "author": "Sherman Chen",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.22.1",
