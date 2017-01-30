@@ -28,9 +28,17 @@ ul {
 /*responsive designs and containers*/
 
 .flex-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 8px;
 	padding: 0.5rem;
 }
 
@@ -39,21 +47,35 @@ ul {
 }
 
 .hook {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	font-size: 24px;
 	font-size: 1.5rem;
 	font-weight: bold;
 }
 
 .blurb {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
 }
 
 .icon {
+	margin-right: 4.8px;
 	margin-right: 0.3rem;
 	color: darkorange;
 	cursor: default;
@@ -65,26 +87,35 @@ ul {
 
 /* Header component */
 .header-flex-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
+	-ms-flex-flow: row wrap;
+	    flex-flow: row wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	border-bottom: 2px solid darkorange;
 	margin-bottom: 10px;
 }
 
 .brand {
 	text-decoration: none;
+	font-size: 32px;
 	font-size: 2rem;
 	color: black;
 	cursor: default;
 }
 
 .links-aside {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
 .link {
 	text-decoration: none;
+	font-size: 16px;
 	font-size: 1rem;
 	color: dodgerblue;
 	cursor: default;
@@ -127,8 +158,13 @@ ul {
 		.header-flex-container {
     	width: 80vw;
     	height: 10vh;
-    	align-items: center;
-    	justify-content: space-between;
+    	-webkit-box-align: center;
+    	    -ms-flex-align: center;
+    	            -ms-grid-row-align: center;
+    	        align-items: center;
+    	-webkit-box-pack: justify;
+    	    -ms-flex-pack: justify;
+    	        justify-content: space-between;
     }
 
     .video {
