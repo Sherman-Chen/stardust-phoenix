@@ -15,7 +15,7 @@ const Resume = () => {
           </ul>
       </section>
       <section className="blurb">
-        <h3>Previous Experience</h3>
+        <h3>Professional Experience</h3>
         <p>From 2014 - 2015: <b>General Manager</b> @ <a className='link' href="http://www.indigi-usa.com/" target='_blank'>Indigi</a></p>
         <ul>
           <li><i className="fa fa-shopping-cart icon"></i>Managed multiple digital storefronts including Amazon, Jet, Walmart, Newegg, Rakuten, and others.</li>
@@ -45,7 +45,7 @@ const Resume = () => {
         </ul>
       </section>
       <section style={{'textAlign':'center'}}>
-        <p>If you've gotten this far here's a PDF of my more traditional looking <a className='link' href='https://docs.google.com/document/d/1W-xE3EflmMx3x4Kg9_Hm6VwOodGc4UMQ16xH9RBz3to/edit?usp=sharing' target='_blank'>Resume</a>.</p>
+        <p>If you've gotten this far here's a PDF of my more traditional looking <a className='link' href='https://drive.google.com/file/d/0B4BznQMywen9M1YzVEpNQUpnY0k/view?usp=sharing' target='_blank'>Resume</a>.</p>
         <p>Connect with me on <a className='link' href='https://www.linkedin.com/in/shermanchen410' target='_blank'>LinkedIn</a>!</p>
       </section>
     </div>

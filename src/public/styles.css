@@ -89,6 +89,10 @@ li {
 	cursor: default;
 }
 
+.icon-link :hover {
+	color: dodgerblue;
+}
+
 /* Header component */
 .header-flex-container {
 	display: -webkit-box;
