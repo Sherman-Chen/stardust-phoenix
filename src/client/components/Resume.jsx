@@ -27,7 +27,7 @@ const Resume = () => {
       <section className="blurb">
         <h3>Skills</h3>
         <ul>
-          <li><i className="fa fa-pencil icon"></i><b>Frontend</b>: In past projects I have used React, and Angular. I have some experience with jQuery and Backbone as well. Really excited about Vue for some reason. I make a committment to building responsive mobile first designs.</li>
+          <li><i className="fa fa-pencil icon"></i><b>Frontend</b>: In past projects I have used React, React Native, and Angular. I have some experience with jQuery and Backbone as well. Really excited with the potential of Vue.js. I make a committment to building responsive, cross-browser compatible, and mobile first design applications.</li>
           <li><i className="fa fa-cogs icon"></i><b>Backend</b>: For the server side of things I program mostly in Node with the Express framework, and use Websockets on occasion. Currently exploring the Django framework.</li>
           <li><i className="fa fa-database icon"></i><b>Databases</b>: I'm a nice guy, but I'm also a MEA/RN guy so MongoDB is my go to. I have also utilized MySQL, MariaDB, and SQLite before.</li>
           <li><i className="fa fa-code-fork icon"></i><b>Version Control</b>: Git saves lives! Always make frequent commmits!</li>
