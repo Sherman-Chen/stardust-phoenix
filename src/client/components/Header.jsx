@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className='header-flex-container'>
       <div className='brand-aside'>
-        <Link className='brand' to='/'><p>Sherman Chen</p></Link>
+        <Link className='brand' to='/'><p><strong>Sherman Chen</strong></p></Link>
       </div>
       <div className='links-aside'>
         <Link className='link link-nav' to='/resume' activeStyle={active}><p>Resume</p></Link>
