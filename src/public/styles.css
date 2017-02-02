@@ -78,15 +78,27 @@ li {
 	line-height: 1.5;
 }
 
+.link {
+	text-decoration: none;
+	font-size: 16px;
+	font-size: 1rem;
+	color: dodgerblue;
+	cursor: pointer;
+}
+
+.link :hover {
+	font-weight: bold;
+}
+
 .icon {
 	margin-right: 4.8px;
 	margin-right: 0.3rem;
 	color: darkorange;
-	cursor: default;
+	cursor: pointer;
 }
 
 .icon-link {
-	cursor: default;
+	cursor: pointer;
 }
 
 .icon-link :hover {
@@ -112,25 +124,13 @@ li {
 	font-size: 32px;
 	font-size: 2rem;
 	color: black;
-	cursor: default;
+	cursor: pointer;
 }
 
 .links-aside {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-}
-
-.link {
-	text-decoration: none;
-	font-size: 16px;
-	font-size: 1rem;
-	color: dodgerblue;
-	cursor: default;
-}
-
-.link :hover {
-	font-weight: bold;
 }
 
 .link-nav {
@@ -154,6 +154,18 @@ li {
 /* Footer component */
 .footer {
 	font-style: italic;
+}
+
+/* About me component */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 /* media queries */

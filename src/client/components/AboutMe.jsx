@@ -7,7 +7,7 @@ export default class AboutMe extends React.Component {
       <div className='flex-wrapper'>
         <section className="blurb">
           <h1>About Sherman</h1>
-          <figure>
+          <figure className="card">
             <img src={require('../../public/images/sherman_chen.jpg')} alt="The boyhood dream acheived! Finally WWE Champion of the world!"/>
             <figcaption><em>Who knows? Maybe one day it'll be the actual belt. A man can dream! ;D</em></figcaption>
           </figure>
