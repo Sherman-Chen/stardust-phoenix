@@ -19,10 +19,6 @@ module.exports = {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: 'babel-loader'
-      },
-      { test: /\.(png|jpg)$/,
-        exclude: /node_modules/,
-        loader: 'url-loader?limit=8192' 
       }
     ]
   }
