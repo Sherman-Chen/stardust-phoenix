@@ -11,7 +11,7 @@ const Projects = () => {
         <h3><i className="fa fa-file-code-o icon"></i>CodeOff</h3>
         <p>"Gamified Online Coding Platform"</p>
         <p><em>Demo Recording currently in progress</em></p>
-        <img src={require('../../public/images/codeoff.png')} alt="CodeOff demo recording in progress!"/>
+        <img src="http://res.cloudinary.com/meetshermanchen-com/image/upload/v1486015920/codeoff_nhme5b.png" alt="CodeOff demo recording in progress!"/>
         <p>It's on <a href="https://github.com/oneoffcharacters/CodeOff" className="link" target='_blank'>GitHub</a>.</p>
         <p><b>What I built</b>: CodeOff is a web application that allows users to pair up and engage in competitve coding challenges. What set it apart from others was the ability to fire off "power ups" (think Mario-Kart) to distract your opponent and increase your chances of winning!</p>
         <p><b>What I learned</b>: The big thing I learned over the development of CodeOff was the huge impact that properly planning out sprints make, technical debt is a real and scary thing! Technology-wise I learned a lot about React, WebSockets, Continous Integration, and Microservices.</p>
@@ -44,7 +44,7 @@ const Projects = () => {
       <section className="blurb border-bottom">
         <h3><i className="fa fa-male icon"></i>Tennis Buddy</h3>
         <p>"Social Network for Tennis Ethusiasts"</p>
-        <img src={require('../../public/images/tennisbuddy.png')} alt="Tennis Buddy the easiest way to play tennis with a buddy!"/>
+        <img src="http://res.cloudinary.com/meetshermanchen-com/image/upload/v1486015937/tennisbuddy_ea4sik.png" alt="Tennis Buddy the easiest way to play tennis with a buddy!"/>
         <p>It's on <a href="https://github.com/Sherman-Chen/TennisBuddy" className="link" target='_blank'>GitHub</a>.</p>
         <p><b>What I built</b>: I had 24 hours to complete this project. I built pretty much built a login/logout feature that didn't really check for authentication, I was way over my head in wanting to develop an entire social network in only a day!</p>
         <p><b>What I learned</b>: Rapid prototyping is an essential in this industry. If there are scaffolding tools available (ahem Yeoman, Create-React-App, etc. cough cough) you should probably use them to save yourself time!</p>
